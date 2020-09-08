@@ -42,7 +42,7 @@ let package = Package(
     targets: [
         .target(
             name: "ZipArchive",
-            path: "SSZipArchive", publicHeadersPath: "SSZipArchive",
+            path: "SSZipArchive", //publicHeadersPath: "SSZipArchive",
             cSettings: [
                 .define("HAVE_INTTYPES_H"),
                 .define("HAVE_PKCRYPT"),

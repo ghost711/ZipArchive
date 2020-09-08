@@ -156,6 +156,7 @@
 /* Begin PBXFileReference section */
 		09D22F482507AC7800347B60 /* SSZipArchive.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SSZipArchive.podspec; sourceTree = "<group>"; };
 		09D22F492507ADEF00347B60 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		09D22F4E2507B68500347B60 /* ZipArchive */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ZipArchive; sourceTree = "<group>"; };
 		3775F3252276B14100A1840B /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_pkcrypt.c; sourceTree = "<group>"; };
 		3775F3282276B14100A1840B /* mz_compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_compat.c; sourceTree = "<group>"; };
 		3775F32A2276B14100A1840B /* mz_strm_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_os.h; sourceTree = "<group>"; };
@@ -274,6 +275,7 @@
 		B423AE101C0DF76A0004A2F1 = {
 			isa = PBXGroup;
 			children = (
+				09D22F4E2507B68500347B60 /* ZipArchive */,
 				09D22F492507ADEF00347B60 /* Package.swift */,
 				09D22F482507AC7800347B60 /* SSZipArchive.podspec */,
 				B423AE251C0DF7950004A2F1 /* SSZipArchive */,

@@ -15,10 +15,10 @@ FOUNDATION_EXPORT double ZipArchiveVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZipArchiveVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ZipArchive/SSZipArchive.h>
-#if defined(SWIFT_PKG_MNGR)
+//#if defined(SWIFT_PKG_MNGR)
 #import "SSZipCommon.h"
-#elif COCOAPODS
-#import <SSZipArchive/SSZipArchive.h> 
-#else
-#import <ZipArchive/SSZipArchive.h>
-#endif
+//#elif COCOAPODS
+//#import <SSZipArchive/SSZipArchive.h>
+//#else
+//#import <ZipArchive/SSZipArchive.h>
+//#endif

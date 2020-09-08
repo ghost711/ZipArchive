@@ -11,13 +11,13 @@
 
 #import <Foundation/Foundation.h>
 
-#if defined(SWIFT_PKG_MNGR)
+//#if defined(SWIFT_PKG_MNGR)
 #import "SSZipCommon.h"
-#elif COCOAPODS
-#import <SSZipArchive/SSZipCommon.h>
-#else
-#import <ZipArchive/SSZipCommon.h>
-#endif
+//#elif COCOAPODS
+//#import <SSZipArchive/SSZipCommon.h>
+//#else
+//#import <ZipArchive/SSZipCommon.h>
+//#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -20,7 +20,7 @@ let package = Package(
         // in this package, and on products in packages which this package
         // depends on.
         .target(name: "SSZipArchive", dependencies: [], path: "SSZipArchive",
-                                              cSettings: [.define("COCOAPODS")])
+                                         cSettings: [.define("SWIFT_PKG_MNGR")])
         //.testTarget(name: "ZipArchiveTests", dependencies: ["ZipArchive"]),
     ]
 )

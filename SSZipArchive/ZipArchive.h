@@ -19,7 +19,7 @@ FOUNDATION_EXPORT const unsigned char ZipArchiveVersionString[];
 #if COCOAPODS
 #import <SSZipArchive/SSZipArchive.h>
 #elif SWIFT_PKG_MNGR
-#import <SSZipCommon.h>
+#import "SSZipCommon.h"
 #else
 #import <ZipArchive/SSZipArchive.h>
 #endif

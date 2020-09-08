@@ -14,7 +14,7 @@
 #if COCOAPODS
 #import <SSZipArchive/SSZipCommon.h>
 #elif SWIFT_PKG_MNGR
-#import <SSZipCommon.h>
+#import "SSZipCommon.h"
 #else
 #import <ZipArchive/SSZipCommon.h>
 #endif

@@ -48,7 +48,7 @@ let package = Package(
                 .define("HAVE_PKCRYPT"),
                 .define("HAVE_STDINT_H"),
                 .define("HAVE_WZAES"),
-                .define("HAVE_ZLIB"), .define("SWIFT_PKG_MNGR", to: "1")
+                .define("HAVE_ZLIB"), .define("SWIFT_PKG_MNGR")
             ],
             linkerSettings: [
                 .linkedLibrary("z"),
